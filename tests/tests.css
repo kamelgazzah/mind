@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial;
@@ -33,9 +37,11 @@ button:hover {
 
 /* MAIN */
 main {
-    max-width: 700px;
-    margin: auto;
-    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 12px;
+    box-sizing: border-box;
 }
 
 /* SELECTOR */
@@ -89,23 +95,11 @@ main {
     margin-top: 20px;
 }
 
-/* MODAL */
-.modal {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.7);
-    justify-content: center;
-    align-items: center;
-}
 
-.modal-content {
-    background: #0f172a;
-    padding: 20px;
-    border-radius: 16px;
-    width: 80%;
-    max-width: 500px;
-}
+
+
+
+
 
 
 /* QUESTION CARD */
@@ -157,6 +151,10 @@ main {
     justify-content: center;
     align-items: center;
     z-index: 9999;
+}
+
+.modal.show {
+    display: flex;
 }
 
 .hidden {
@@ -216,13 +214,19 @@ main {
 }
 
 .test-container {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
 }
 
+
+
+
+
+
 @media (max-width: 768px) {
-    body {
+
+     body {
         padding: 8px;
     }
 
@@ -231,4 +235,18 @@ main {
         max-width: 100%;
         padding: 8px;
     }
+
+    main {
+        padding: 8px;
+    }
+
+    .card {
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    #answers {
+        padding: 8px;
+    }
 }
+
