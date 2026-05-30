@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tests Psychométriques</title>
+  <link rel="stylesheet" href="tests.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>🧠 Test Psychométrique</h1>
+
+    <div class="topbar">
+      <button id="btnHome">Accueil</button>
+      <button id="btnResults">Mes résultats</button>
+      <button id="goMasterMind" class="nav-btn">
+        🧠 Master Mind
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SELECT TEST -->
+    <div id="selector">
+      <h2>Choisir un test</h2>
+
+      <button onclick="loadTest('strategy')">Profil Stratégique</button>
+      <button onclick="loadTest('leadership')">Leadership</button>
+      <button onclick="loadTest('entrepreneur')">Entrepreneur</button>
+      <button onclick="loadTest('creativity')">Créativité</button>
+    </div>
+
+    <!-- PROGRESS -->
+    <div class="progress-container">
+      <div id="progressBar"></div>
+    </div>
+
+    <div id="progressText">0 / 0</div>
+
+    <!-- QUESTION -->
+    <div class="card">
+
+      <div id="questionText">Sélectionnez un test</div>
+
+      <div id="answers"></div>
+
+    </div>
+
+    <!-- NAV -->
+    <div class="nav">
+      <button id="prevBtn">⬅ Précédent</button>
+      <button id="nextBtn">Suivant ➜</button>
+    </div>
+
+  </main>
+
+
+
+
+
+  <div id="resultsModal" class="modal hidden">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h2>Mes résultats</h2>
+        <button id="closeResults">✕</button>
+      </div>
+
+      <div id="resultsContainer" class="results-container"></div>
+
+    </div>
+  </div>
+
+  <script src="tests.js"></script>
+
+</body>
+
+</html>

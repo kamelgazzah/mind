@@ -387,86 +387,108 @@ header {
     flex-wrap: wrap;
 }
 
-.md{
-    color:#e5e7eb;
-    font-size:14px;
-    line-height:1.6;
+.md {
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.6;
 
-    padding:10px;
+    padding: 10px;
 }
 
 /* TITRES */
-.md h1{
-    font-size:22px;
-    margin:10px 0;
-    color:white;
+.md h1 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: white;
 }
 
-.md h2{
-    font-size:18px;
-    margin:10px 0;
-    color:#93c5fd;
+.md h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #93c5fd;
 }
 
-.md h3{
-    font-size:16px;
-    margin:8px 0;
-    color:#60a5fa;
+.md h3 {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #60a5fa;
 }
 
 /* LISTES */
-.md ul{
-    padding-left:18px;
+.md ul {
+    padding-left: 18px;
 }
 
-.md li{
-    margin:4px 0;
+.md li {
+    margin: 4px 0;
 }
 
 /* BLOC EMPHASE */
-.md b{
-    color:#fbbf24;
+.md b {
+    color: #fbbf24;
 }
 
 /* PARAGRAPHES */
-.md p{
-    margin:6px 0;
+.md p {
+    margin: 6px 0;
 }
 
-.modal-content{
-    position:relative;
+.modal-content {
+    position: relative;
 
-    width:90%;
-    max-width:520px;
-    max-height:80vh;
+    width: 90%;
+    max-width: 520px;
+    max-height: 80vh;
 
-    overflow:auto;
+    overflow: auto;
 
-    background:#0f172a;
-    border-radius:16px;
+    background: #0f172a;
+    border-radius: 16px;
 
-    padding:20px;
+    padding: 20px;
 
-    box-shadow:0 20px 60px rgba(0,0,0,0.6);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
 }
 
-.actions{
-    display:flex;
-    gap:10px;
-    justify-content:center;
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
-.actions button{
-    background:#1f2937;
-    color:white;
+.actions button {
+    background: #1f2937;
+    color: white;
 
-    border:none;
-    border-radius:10px;
+    border: none;
+    border-radius: 10px;
 
-    padding:6px 10px;
-    cursor:pointer;
+    padding: 6px 10px;
+    cursor: pointer;
 }
 
-.actions button:hover{
-    background:#374151;
+.actions button:hover {
+    background: #374151;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 6px 10px;
+    border-radius: 10px;
+
+    background: #1f2937;
+    color: white;
+
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    background: #374151;
+    transform: translateY(-1px);
 }

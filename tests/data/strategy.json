@@ -1,0 +1,1207 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Lorsque vous commencez un nouveau projet :",
+      "answers": {
+        "A": {
+          "text": "Je construis un plan détaillé",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'étudie toutes les informations disponibles",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je démarre rapidement pour apprendre en avançant",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "J'imagine plusieurs approches originales",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "text": "Face à un problème complexe :",
+      "answers": {
+        "A": {
+          "text": "Je découpe le problème en étapes",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Je recherche les causes profondes",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je teste rapidement une solution",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche une approche différente",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "text": "Dans une équipe, vous êtes souvent :",
+      "answers": {
+        "A": {
+          "text": "L'organisateur",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "L'expert",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Le moteur de l'action",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Le créateur d'idées",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "text": "Vous devez prendre une décision importante :",
+      "answers": {
+        "A": {
+          "text": "Je prépare un plan de décision",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'analyse les données disponibles",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je décide rapidement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "J'explore des options inédites",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "text": "L'incertitude vous pousse à :",
+      "answers": {
+        "A": {
+          "text": "Prévoir davantage",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Chercher plus d'informations",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Agir malgré les risques",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Explorer de nouvelles possibilités",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "text": "Lorsque vous préparez un voyage :",
+      "answers": {
+        "A": {
+          "text": "Je prépare un programme précis",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Je compare toutes les options",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je réserve rapidement et j'avance",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche des expériences originales",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "text": "Dans votre travail idéal :",
+      "answers": {
+        "A": {
+          "text": "Organisation et structure",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Analyse et compréhension",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Résultats et action",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Créativité et innovation",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "text": "Quand un plan échoue :",
+      "answers": {
+        "A": {
+          "text": "Je révise le plan",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'analyse les causes",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je relance immédiatement une action",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "J'imagine une nouvelle stratégie",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "text": "Face à une opportunité :",
+      "answers": {
+        "A": {
+          "text": "J'évalue son intégration dans mes objectifs",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'étudie les avantages et risques",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je saisis l'occasion rapidement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "J'imagine ce qu'elle pourrait devenir",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "text": "Votre rapport au temps est plutôt :",
+      "answers": {
+        "A": {
+          "text": "Planifié",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Réfléchi",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Orienté action",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Flexible et créatif",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "text": "Vous apprenez le plus facilement :",
+      "answers": {
+        "A": {
+          "text": "Avec une méthode structurée",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "En comprenant les concepts",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "En pratiquant immédiatement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "En expérimentant librement",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "text": "Lors d'une réunion :",
+      "answers": {
+        "A": {
+          "text": "Je veille à l'ordre du jour",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Je pose des questions de fond",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je pousse vers une décision",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je propose de nouvelles idées",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "text": "Quand vous lisez un livre :",
+      "answers": {
+        "A": {
+          "text": "Je retiens la méthode",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche les concepts clés",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche les applications pratiques",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je m'inspire des idées nouvelles",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "text": "Face à un défi inattendu :",
+      "answers": {
+        "A": {
+          "text": "Je réorganise mes priorités",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'analyse la situation",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "J'interviens immédiatement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je transforme le défi en opportunité",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "text": "Ce qui vous motive le plus :",
+      "answers": {
+        "A": {
+          "text": "Atteindre un objectif planifié",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Comprendre un sujet complexe",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Obtenir des résultats visibles",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Créer quelque chose de nouveau",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "text": "Dans un changement important :",
+      "answers": {
+        "A": {
+          "text": "Je prépare la transition",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'étudie les impacts",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je m'adapte rapidement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je vois de nouvelles opportunités",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "text": "Votre façon de résoudre un conflit :",
+      "answers": {
+        "A": {
+          "text": "Mettre en place un cadre clair",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Comprendre les positions de chacun",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Prendre une décision rapidement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Trouver une solution originale",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "text": "Votre qualité principale selon vos proches :",
+      "answers": {
+        "A": {
+          "text": "L'organisation",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "La réflexion",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "L'efficacité",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "La créativité",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "text": "Lorsque vous découvrez une nouvelle technologie :",
+      "answers": {
+        "A": {
+          "text": "Je cherche comment l'intégrer à mes méthodes",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "J'étudie son fonctionnement",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "Je la teste immédiatement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "J'imagine ses usages futurs",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "text": "Quelle phrase vous ressemble le plus ?",
+      "answers": {
+        "A": {
+          "text": "Un bon plan vaut mieux qu'une improvisation",
+          "scores": {
+            "planner": 3
+          }
+        },
+        "B": {
+          "text": "Comprendre est la clé",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "C": {
+          "text": "L'action fait la différence",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "L'avenir appartient aux créatifs",
+          "scores": {
+            "innovator": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "text": "Face à une opportunité inattendue, votre premier réflexe est :",
+      "answers": {
+        "A": {
+          "text": "Évaluer les risques et bénéfices",
+          "scores": {
+            "analyst": 3,
+            "planner": 1
+          }
+        },
+        "B": {
+          "text": "Imaginer ce qu'elle pourrait devenir dans cinq ans",
+          "scores": {
+            "innovator": 3,
+            "planner": 1
+          }
+        },
+        "C": {
+          "text": "Décider rapidement si elle mérite une action immédiate",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Vérifier son intégration dans le plan global",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "text": "Lorsqu'un projet rencontre un obstacle important :",
+      "answers": {
+        "A": {
+          "text": "Je collecte davantage d'informations",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche une approche totalement nouvelle",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je prends une décision et j'avance",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je révise la feuille de route",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "text": "Vous êtes le plus performant lorsque :",
+      "answers": {
+        "A": {
+          "text": "Les données sont abondantes",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Il faut imaginer quelque chose de nouveau",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Une décision urgente doit être prise",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Un plan complexe doit être coordonné",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 24,
+      "text": "Dans une réunion stratégique, vous intervenez surtout pour :",
+      "answers": {
+        "A": {
+          "text": "Questionner les hypothèses",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Proposer de nouvelles pistes",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Faire converger vers une décision",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Structurer les actions futures",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "text": "Lorsque vous lisez un rapport :",
+      "answers": {
+        "A": {
+          "text": "Je vérifie les chiffres et tendances",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche les opportunités cachées",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche ce qui nécessite une action",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je vérifie la cohérence globale",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "text": "Votre plus grande force est :",
+      "answers": {
+        "A": {
+          "text": "L'analyse rigoureuse",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "La créativité stratégique",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "La capacité à agir",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "L'organisation à long terme",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 27,
+      "text": "Quand plusieurs solutions existent :",
+      "answers": {
+        "A": {
+          "text": "Je compare les données",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "J'en invente une nouvelle",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je choisis rapidement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je privilégie celle qui s'intègre au plan",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 28,
+      "text": "Face à l'incertitude :",
+      "answers": {
+        "A": {
+          "text": "Je recherche davantage d'informations",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "J'y vois un terrain d'innovation",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "J'avance malgré tout",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je prépare plusieurs scénarios",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 29,
+      "text": "Lors d'un investissement important :",
+      "answers": {
+        "A": {
+          "text": "Je réalise une analyse détaillée",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Je privilégie les projets disruptifs",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je décide rapidement si le potentiel est évident",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je l'intègre dans une vision long terme",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 30,
+      "text": "Quand vous dirigez un projet :",
+      "answers": {
+        "A": {
+          "text": "Je mesure les indicateurs",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "J'encourage les idées nouvelles",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je maintiens un rythme d'exécution élevé",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je veille au respect du plan",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "text": "Vous préférez :",
+      "answers": {
+        "A": {
+          "text": "Comprendre",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Créer",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Agir",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Organiser",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 32,
+      "text": "Une idée vous semble intéressante si :",
+      "answers": {
+        "A": {
+          "text": "Elle est démontrable",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Elle est originale",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Elle est applicable immédiatement",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Elle s'inscrit dans une stratégie cohérente",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "text": "Votre approche du futur est :",
+      "answers": {
+        "A": {
+          "text": "Prévoir",
+          "scores": {
+            "analyst": 2,
+            "planner": 1
+          }
+        },
+        "B": {
+          "text": "Inventer",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Construire",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Planifier",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 34,
+      "text": "Lorsque les délais deviennent serrés :",
+      "answers": {
+        "A": {
+          "text": "Je priorise selon les données",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche des raccourcis innovants",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je prends le contrôle de l'exécution",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je réorganise le planning",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "text": "Votre devise pourrait être :",
+      "answers": {
+        "A": {
+          "text": "Les faits avant tout",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Imaginer l'impossible",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Passer à l'action",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Préparer pour réussir",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "text": "Ce qui vous irrite le plus :",
+      "answers": {
+        "A": {
+          "text": "Les conclusions sans preuves",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Le manque d'imagination",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "L'inaction",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "L'improvisation permanente",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "text": "Votre rôle naturel dans une équipe est :",
+      "answers": {
+        "A": {
+          "text": "Expert",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Visionnaire",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Moteur",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Coordinateur",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "text": "Pour réussir durablement il faut surtout :",
+      "answers": {
+        "A": {
+          "text": "Comprendre la réalité",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Innover continuellement",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Exécuter avec discipline",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Prévoir les étapes futures",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "text": "Lorsqu'une stratégie échoue :",
+      "answers": {
+        "A": {
+          "text": "J'analyse les causes",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "J'imagine une approche radicalement différente",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je mets immédiatement en œuvre un plan B",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je révise l'ensemble du plan",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "text": "Quelle phrase vous décrit le mieux ?",
+      "answers": {
+        "A": {
+          "text": "Je cherche à comprendre",
+          "scores": {
+            "analyst": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche à inventer",
+          "scores": {
+            "innovator": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche à accomplir",
+          "scores": {
+            "executor": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche à structurer",
+          "scores": {
+            "planner": 3
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1221 @@
+{
+  "id": "leadership",
+  "title": "Profil de Leadership",
+  "description": "Découvrez votre style naturel de leadership.",
+  "profiles": {
+    "visionary": {
+      "name": "Leader Visionnaire"
+    },
+    "coach": {
+      "name": "Leader Accompagnateur"
+    },
+    "decisive": {
+      "name": "Leader Décideur"
+    },
+    "collaborative": {
+      "name": "Leader Collaboratif"
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Lorsqu'une équipe démarre un nouveau projet :",
+      "answers": {
+        "A": {
+          "text": "Je présente une vision inspirante",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'accompagne chacun individuellement",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fixe rapidement les objectifs",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "J'implique tout le monde dans les décisions",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "text": "Face à un conflit dans l'équipe :",
+      "answers": {
+        "A": {
+          "text": "Je rappelle la vision commune",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'écoute chaque personne",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je tranche rapidement",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche un consensus",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "text": "Votre plus grande qualité de leader est :",
+      "answers": {
+        "A": {
+          "text": "L'inspiration",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "L'écoute",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "La décision",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "La coopération",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "text": "Quand un collaborateur échoue :",
+      "answers": {
+        "A": {
+          "text": "Je lui rappelle l'objectif global",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je l'aide à progresser",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je définis immédiatement un plan correctif",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Nous analysons ensemble les causes",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "text": "Lors d'un changement important :",
+      "answers": {
+        "A": {
+          "text": "Je montre les opportunités futures",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je rassure les personnes concernées",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je prends les décisions nécessaires",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je consulte largement l'équipe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "text": "Dans une réunion :",
+      "answers": {
+        "A": {
+          "text": "Je partage une direction claire",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je veille à ce que chacun s'exprime",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fais avancer les décisions",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je favorise les échanges",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "text": "Ce qui vous motive le plus comme leader :",
+      "answers": {
+        "A": {
+          "text": "Transformer l'avenir",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Faire grandir les personnes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Atteindre les objectifs",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Créer une équipe soudée",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "text": "Lorsqu'un projet prend du retard :",
+      "answers": {
+        "A": {
+          "text": "Je rappelle pourquoi il est important",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'identifie les difficultés de chacun",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je réorganise immédiatement les priorités",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je mobilise le groupe pour trouver une solution",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "text": "Quand vous déléguez :",
+      "answers": {
+        "A": {
+          "text": "J'explique la finalité",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'accompagne la personne",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fixe des résultats précis",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je construis la mission avec elle",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "text": "Votre équipe idéale :",
+      "answers": {
+        "A": {
+          "text": "Inspirée par une ambition forte",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "En apprentissage permanent",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Performante et efficace",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Solidaire et participative",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "text": "Quand une opportunité apparaît :",
+      "answers": {
+        "A": {
+          "text": "Je vois son potentiel futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je pense aux personnes concernées",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je décide rapidement",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je consulte l'équipe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "text": "Votre style de communication est plutôt :",
+      "answers": {
+        "A": {
+          "text": "Inspirant",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Bienveillant",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Direct",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Participatif",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "text": "Face à une crise :",
+      "answers": {
+        "A": {
+          "text": "Je maintiens une vision claire",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je soutiens l'équipe",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je prends le contrôle",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je rassemble les compétences",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "text": "Vous préférez être reconnu pour :",
+      "answers": {
+        "A": {
+          "text": "Votre vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Votre humanité",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Votre efficacité",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Votre esprit d'équipe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "text": "Quand une décision est impopulaire :",
+      "answers": {
+        "A": {
+          "text": "J'explique sa nécessité pour l'avenir",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'accompagne les personnes impactées",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je l'assume pleinement",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche l'adhésion du groupe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "text": "Lorsque vous accueillez un nouveau collaborateur :",
+      "answers": {
+        "A": {
+          "text": "Je lui présente la vision de l'organisation",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je prends du temps pour le guider",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je clarifie rapidement ses objectifs",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je l'intègre à l'équipe dès le départ",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "text": "Face à une forte concurrence :",
+      "answers": {
+        "A": {
+          "text": "Je redéfinis une vision ambitieuse",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je renforce la motivation des équipes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je prends des mesures immédiates",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je mobilise les compétences collectives",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "text": "Quand une personne manque de confiance :",
+      "answers": {
+        "A": {
+          "text": "Je lui montre ce qu'elle peut devenir",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je l'encourage et l'accompagne",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je lui confie un défi concret",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je l'intègre davantage au groupe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "text": "Dans une négociation difficile :",
+      "answers": {
+        "A": {
+          "text": "Je cherche un accord aligné avec la vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je prends en compte les besoins humains",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je vais à l'essentiel",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche une solution gagnant-gagnant",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "text": "Votre équipe obtient un succès important :",
+      "answers": {
+        "A": {
+          "text": "Je rappelle les objectifs futurs",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je valorise les efforts de chacun",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fixe rapidement le prochain défi",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je célèbre collectivement la réussite",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "text": "Lorsque les ressources sont limitées :",
+      "answers": {
+        "A": {
+          "text": "Je priorise selon la vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je protège les personnes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je prends des décisions rapides",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je cherche des solutions collectives",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "text": "Vous préférez diriger :",
+      "answers": {
+        "A": {
+          "text": "Par l'inspiration",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Par le développement des talents",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Par l'exemple et l'action",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Par la participation",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "text": "Quand un objectif semble impossible :",
+      "answers": {
+        "A": {
+          "text": "Je transforme le défi en ambition",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je renforce la confiance des équipes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche une voie rapide",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je sollicite l'intelligence collective",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 24,
+      "text": "Votre plus grand risque comme leader :",
+      "answers": {
+        "A": {
+          "text": "Être trop focalisé sur l'avenir",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Trop protéger les autres",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Décider trop vite",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Chercher trop de consensus",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "text": "Lorsque vous animez un groupe :",
+      "answers": {
+        "A": {
+          "text": "Je partage une ambition forte",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je fais émerger les talents",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je garde le cap sur les résultats",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je facilite les échanges",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "text": "Face à un changement technologique :",
+      "answers": {
+        "A": {
+          "text": "J'imagine les opportunités futures",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'accompagne les équipes dans la transition",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je décide rapidement de l'adoption",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je consulte les utilisateurs",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 27,
+      "text": "Quand vous motivez une équipe :",
+      "answers": {
+        "A": {
+          "text": "Je parle du futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je reconnais les efforts",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fixe des objectifs stimulants",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je renforce le sentiment d'appartenance",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 28,
+      "text": "Dans une organisation idéale :",
+      "answers": {
+        "A": {
+          "text": "Tout le monde partage une vision forte",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Les personnes progressent continuellement",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Les résultats sont atteints rapidement",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "La coopération est naturelle",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 29,
+      "text": "Lorsque plusieurs options sont possibles :",
+      "answers": {
+        "A": {
+          "text": "Je choisis celle qui sert le mieux la vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je regarde l'impact humain",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je choisis la plus efficace",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je consulte les parties prenantes",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 30,
+      "text": "Un bon leader doit avant tout :",
+      "answers": {
+        "A": {
+          "text": "Montrer une direction",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Faire grandir les autres",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Prendre des décisions",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Créer de la cohésion",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "text": "Face à une forte pression :",
+      "answers": {
+        "A": {
+          "text": "Je garde la vision à long terme",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je reste attentif aux personnes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je décide rapidement",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je renforce l'entraide",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 32,
+      "text": "Quand une équipe réussit :",
+      "answers": {
+        "A": {
+          "text": "Je souligne l'impact futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je remercie chacun",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je prépare le prochain objectif",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je célèbre collectivement",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "text": "Votre approche du changement est :",
+      "answers": {
+        "A": {
+          "text": "Visionnaire",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Humaine",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Pragmatique",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Participative",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 34,
+      "text": "Dans un projet innovant :",
+      "answers": {
+        "A": {
+          "text": "Je définis une ambition forte",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je développe les talents",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je garde un rythme soutenu",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je favorise la co-construction",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "text": "Quand une erreur est commise :",
+      "answers": {
+        "A": {
+          "text": "J'en tire une leçon pour l'avenir",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "J'aide à progresser",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je corrige immédiatement",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse avec l'équipe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "text": "Votre source principale d'influence :",
+      "answers": {
+        "A": {
+          "text": "La vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "La confiance",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Les résultats",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "La coopération",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "text": "Quand une équipe est démotivée :",
+      "answers": {
+        "A": {
+          "text": "Je redonne du sens",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je soutiens les personnes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fixe un objectif stimulant",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je renforce la dynamique collective",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "text": "Votre décision la plus naturelle est :",
+      "answers": {
+        "A": {
+          "text": "Orientée vers le futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Orientée vers les personnes",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Orientée vers l'efficacité",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Orientée vers l'équipe",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "text": "Le leadership idéal repose sur :",
+      "answers": {
+        "A": {
+          "text": "Une vision inspirante",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Le développement humain",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "La capacité à décider",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "La coopération",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "text": "Quelle phrase vous représente le mieux ?",
+      "answers": {
+        "A": {
+          "text": "Je montre le chemin",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "B": {
+          "text": "Je fais grandir les autres",
+          "scores": {
+            "coach": 3
+          }
+        },
+        "C": {
+          "text": "Je fais avancer les choses",
+          "scores": {
+            "decisive": 3
+          }
+        },
+        "D": {
+          "text": "Je rassemble les personnes",
+          "scores": {
+            "collaborative": 3
+          }
+        }
+      }
+    }
+  ]
+}

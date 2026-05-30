@@ -1,0 +1,1226 @@
+{
+  "id": "entrepreneur",
+  "title": "Profil Entrepreneurial",
+  "description": "Découvrez votre style naturel d'entrepreneur.",
+  "profiles": {
+    "builder": {
+      "name": "Entrepreneur Bâtisseur",
+      "description": "Vous aimez construire, exécuter et transformer les idées en réalisations concrètes."
+    },
+    "visionary": {
+      "name": "Entrepreneur Visionnaire",
+      "description": "Vous imaginez de nouveaux marchés et voyez les tendances avant les autres."
+    },
+    "opportunist": {
+      "name": "Entrepreneur Opportuniste",
+      "description": "Vous repérez rapidement les occasions d'affaires et savez les exploiter."
+    },
+    "strategist": {
+      "name": "Entrepreneur Stratège",
+      "description": "Vous privilégiez l'analyse, la préparation et la croissance durable."
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Lorsque vous découvrez une nouvelle idée d'entreprise :",
+      "answers": {
+        "A": {
+          "text": "Je réfléchis à son exécution concrète",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "J'imagine son potentiel futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche si le marché est prêt maintenant",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse sa viabilité à long terme",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "text": "Face à un marché saturé :",
+      "answers": {
+        "A": {
+          "text": "Je cherche à mieux exécuter que les concurrents",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je crée une nouvelle catégorie",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche une niche rentable",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'étudie les tendances avant d'agir",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "text": "Votre principale qualité est :",
+      "answers": {
+        "A": {
+          "text": "La persévérance",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "L'imagination",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "L'adaptabilité",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "La réflexion",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "text": "Lorsqu'une opportunité apparaît :",
+      "answers": {
+        "A": {
+          "text": "Je regarde comment la concrétiser",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je vois ce qu'elle peut devenir dans dix ans",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "J'agis rapidement",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse les risques",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "text": "Votre approche de l'innovation est :",
+      "answers": {
+        "A": {
+          "text": "Améliorer ce qui existe",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Créer quelque chose de radicalement nouveau",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Profiter rapidement des nouvelles tendances",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Évaluer le potentiel avant d'investir",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "text": "Quand un projet échoue :",
+      "answers": {
+        "A": {
+          "text": "Je recommence immédiatement",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "J'imagine une nouvelle approche",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je passe à une autre opportunité",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse les causes profondes",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "text": "Votre vision du risque :",
+      "answers": {
+        "A": {
+          "text": "Il faut l'affronter",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Il accompagne toute innovation",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Il crée des opportunités",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Il doit être maîtrisé",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "text": "Vous préférez :",
+      "answers": {
+        "A": {
+          "text": "Construire",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Inventer",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Saisir",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Planifier",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "text": "Quand vous lancez un produit :",
+      "answers": {
+        "A": {
+          "text": "Je travaille sa qualité d'exécution",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je mets en avant sa vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche le timing parfait",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je valide le modèle économique",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "text": "Votre moteur principal est :",
+      "answers": {
+        "A": {
+          "text": "Réaliser",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Transformer",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Profiter",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Développer durablement",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "text": "Dans une startup, vous êtes souvent celui qui :",
+      "answers": {
+        "A": {
+          "text": "Fait avancer les projets",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Pense aux innovations futures",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Repère les opportunités commerciales",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Définit la stratégie",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "text": "Face à un concurrent agressif :",
+      "answers": {
+        "A": {
+          "text": "J'améliore mon exécution",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je change les règles du jeu",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche une nouvelle niche",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse ses faiblesses",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "text": "Ce qui vous enthousiasme le plus :",
+      "answers": {
+        "A": {
+          "text": "Construire un projet solide",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Créer le futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Découvrir une opportunité cachée",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Définir une stratégie gagnante",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "text": "Votre approche du temps :",
+      "answers": {
+        "A": {
+          "text": "Aujourd'hui",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Dans dix ans",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Maintenant ou jamais",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "À moyen et long terme",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "text": "Quand vous voyez un problème :",
+      "answers": {
+        "A": {
+          "text": "Je cherche à le résoudre immédiatement",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche une solution innovante",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche l'opportunité cachée",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse les causes",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    
+    {
+      "id": 16,
+      "text": "Si vous recevez un investissement important :",
+      "answers": {
+        "A": {
+          "text": "Je renforce les opérations",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "J'accélère l'innovation",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche de nouveaux marchés",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je bâtis un plan de croissance",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "text": "Votre première embauche idéale est :",
+      "answers": {
+        "A": {
+          "text": "Un excellent exécutant",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Un créatif innovant",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Un commercial dynamique",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Un responsable structuré",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "text": "Une startup réussit surtout grâce à :",
+      "answers": {
+        "A": {
+          "text": "L'exécution",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "L'innovation",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Le timing",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "La stratégie",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "text": "Lorsque les ventes stagnent :",
+      "answers": {
+        "A": {
+          "text": "J'améliore les processus",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je repense l'offre",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche un nouveau marché",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse les données clients",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "text": "Votre rapport à la concurrence :",
+      "answers": {
+        "A": {
+          "text": "Je fais mieux qu'elle",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je change les règles du jeu",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je vais là où elle n'est pas",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je l'étudie en détail",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "text": "Votre réaction face à une crise :",
+      "answers": {
+        "A": {
+          "text": "Je me mets immédiatement au travail",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je cherche une nouvelle vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je repère les opportunités créées par la crise",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'établis un plan de réponse",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "text": "Votre principal moteur est :",
+      "answers": {
+        "A": {
+          "text": "Construire quelque chose de concret",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Changer le monde",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Saisir les occasions",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Créer une organisation durable",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 23,
+      "text": "Lorsque vous lisez une étude de marché :",
+      "answers": {
+        "A": {
+          "text": "Je cherche comment agir",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "J'imagine les ruptures futures",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche les niches inexploitées",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse les tendances profondes",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 24,
+      "text": "Quand vous lancez un projet :",
+      "answers": {
+        "A": {
+          "text": "Je construis rapidement un MVP",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je définis une vision forte",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je teste immédiatement le marché",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je prépare une feuille de route",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 25,
+      "text": "Votre devise pourrait être :",
+      "answers": {
+        "A": {
+          "text": "Faire",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Imaginer",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Saisir",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Prévoir",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 26,
+      "text": "Quand une idée semble impossible :",
+      "answers": {
+        "A": {
+          "text": "Je cherche comment la réaliser",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je suis encore plus motivé",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je regarde si elle cache une opportunité",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je vérifie sa faisabilité",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 27,
+      "text": "Votre force principale dans une équipe fondatrice :",
+      "answers": {
+        "A": {
+          "text": "L'exécution",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "La vision",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Le business development",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "La planification",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 28,
+      "text": "Vous préférez investir dans :",
+      "answers": {
+        "A": {
+          "text": "Une activité déjà rentable",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Une technologie révolutionnaire",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Une tendance émergente",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Un modèle éprouvé et scalable",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 29,
+      "text": "Quand un client se plaint :",
+      "answers": {
+        "A": {
+          "text": "Je corrige immédiatement",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je repense l'expérience client",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "J'identifie une opportunité commerciale",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'analyse la cause racine",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 30,
+      "text": "Votre horizon naturel est :",
+      "answers": {
+        "A": {
+          "text": "Cette semaine",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Dans dix ans",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Le prochain mouvement du marché",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Les prochaines années",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "text": "Vous admirez surtout les entrepreneurs qui :",
+      "answers": {
+        "A": {
+          "text": "Bâtissent des empires",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Inventent le futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Profitent des grandes tendances",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Créent des entreprises pérennes",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 32,
+      "text": "Face à une forte croissance :",
+      "answers": {
+        "A": {
+          "text": "Je renforce l'organisation",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je continue à innover",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche d'autres opportunités",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je structure la croissance",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "text": "Quand vous prenez une décision :",
+      "answers": {
+        "A": {
+          "text": "Je pense à l'exécution",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je pense à l'impact futur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je pense au gain potentiel",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je pense aux conséquences à long terme",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 34,
+      "text": "Votre plus grand risque est :",
+      "answers": {
+        "A": {
+          "text": "Travailler trop",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Voir trop loin",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Changer trop vite de direction",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Analyser trop longtemps",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "text": "Quand une innovation apparaît :",
+      "answers": {
+        "A": {
+          "text": "Je regarde comment l'utiliser",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "J'imagine ses impacts futurs",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je cherche comment en profiter rapidement",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "J'étudie son potentiel réel",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "text": "Votre plus grande satisfaction est :",
+      "answers": {
+        "A": {
+          "text": "Voir un projet terminé",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Créer quelque chose d'inédit",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Conclure une bonne affaire",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Voir une stratégie réussir",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "text": "Lors d'une négociation :",
+      "answers": {
+        "A": {
+          "text": "Je cherche un accord concret",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Je mets en avant une vision commune",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Je repère les opportunités cachées",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Je prépare minutieusement mes arguments",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "text": "Pour réussir durablement il faut :",
+      "answers": {
+        "A": {
+          "text": "Exécuter avec constance",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Continuer à innover",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Savoir saisir les occasions",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Penser plusieurs coups à l'avance",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "text": "Vous vous définissez surtout comme :",
+      "answers": {
+        "A": {
+          "text": "Constructeur",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Inventeur",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Détecteur d'opportunités",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Architecte de croissance",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "text": "Quelle phrase vous représente le mieux ?",
+      "answers": {
+        "A": {
+          "text": "Les idées n'ont de valeur que si elles sont réalisées.",
+          "scores": {
+            "builder": 3
+          }
+        },
+        "B": {
+          "text": "Le futur appartient à ceux qui l'inventent.",
+          "scores": {
+            "visionary": 3
+          }
+        },
+        "C": {
+          "text": "Chaque changement cache une opportunité.",
+          "scores": {
+            "opportunist": 3
+          }
+        },
+        "D": {
+          "text": "Une croissance durable se construit.",
+          "scores": {
+            "strategist": 3
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Master Mind</title>
+  <title>Master Mind</title>
 
-<link rel="icon" href="assets/icon.svg">
-<link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icon.svg">
+  <link rel="stylesheet" href="style.css">
 
-<script src="app.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 
 <body>
 
-<header>
+  <header>
 
     <!-- LOGO DYNAMIC -->
     <div class="title" id="logoTitle"></div>
@@ -23,35 +24,39 @@
 
     <div class="actions">
 
-    <button id="scoresBtn">Mes scores</button>
-    <button id="aboutBtn">About</button>
+      <button id="scoresBtn">Mes scores</button>
+      <button id="aboutBtn">About</button>
+      <a href="tests/tests.html" class="nav-link">
+        🧠 Tests
+      </a>
 
-</div>
-</header>
+    </div>
+  </header>
 
-<main>
-  <div id="layout">
+  <main>
+    <div id="layout">
 
-    
 
-    <section id="gameView">
 
-      <div class="stats">
-        <span>⏱ <b id="timer">0</b>s</span>
-        <span>🎯 <b id="tries">0</b></span>
-      </div>
+      <section id="gameView">
 
-      <div class="board" id="board"></div>
+        <div class="stats">
+          <span>⏱ <b id="timer">0</b>s</span>
+          <span>🎯 <b id="tries">0</b></span>
+        </div>
 
-    </section>
+        <div class="board" id="board"></div>
 
-  </div>
-</main>
+      </section>
 
-<footer>
+    </div>
+  </main>
+
+  <footer>
     Master Mind © 2026 Kamel El Gazzah |
     <a href="https://www.facebook.com/kmlgzh" target="_blank">Facebook</a>
-</footer>
+  </footer>
 
 </body>
+
 </html>
