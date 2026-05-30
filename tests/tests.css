@@ -215,6 +215,12 @@ main {
     background: #374151;
 }
 
+.test-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 8px;
