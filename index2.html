@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MasterMind 5 Chiffres</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#0f172a;
+    color:white;
+    min-height:100vh;
+}
+
+.container{
+    width:min(900px,95%);
+    margin:auto;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    font-weight:300;
+    letter-spacing:4px;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.panel{
+    background:#111827;
+    padding:10px 15px;
+    border-radius:10px;
+}
+
+.board{
+    background:#111827;
+    border-radius:16px;
+    padding:20px;
+}
+
+.row{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:12px;
+
+    opacity:0;
+    transform:translateY(20px);
+
+    animation:slideIn .25s ease forwards;
+}
+
+@keyframes slideIn{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.inputs{
+    display:flex;
+    gap:8px;
+}
+
+.cell{
+    width:52px;
+    height:58px;
+    border:none;
+    border-radius:10px;
+    background:#1e293b;
+    color:white;
+    font-size:24px;
+    text-align:center;
+    outline:none;
+}
+
+.cell:focus{
+    box-shadow:0 0 0 2px #3b82f6;
+}
+
+.cell:disabled{
+    opacity:.5;
+}
+
+.score{
+    min-width:110px;
+    display:flex;
+    gap:8px;
+}
+
+.badge{
+    background:#2563eb;
+    border-radius:8px;
+    padding:6px 10px;
+    font-size:14px;
+}
+
+.next{
+    width:44px;
+    height:44px;
+    border:none;
+    border-radius:50%;
+    background:#10b981;
+    color:white;
+    cursor:pointer;
+    font-size:20px;
+}
+
+.next:hover{
+    transform:scale(1.05);
+}
+
+.next:disabled{
+    opacity:.4;
+    cursor:not-allowed;
+}
+
+.win{
+    background:#16a34a !important;
+}
+
+.history{
+    margin-top:30px;
+}
+
+.history-item{
+    background:#1e293b;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:8px;
+}
+
+@media(max-width:700px){
+
+    .row{
+        flex-wrap:wrap;
+    }
+
+    .cell{
+        width:44px;
+        height:50px;
+        font-size:20px;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>MASTER MIND</h1>
+
+    <div class="topbar">
+        <div class="panel">
+            Temps : <span id="timer">0</span>s
+        </div>
+
+        <div class="panel">
+            Essais : <span id="attempts">0</span>
+        </div>
+    </div>
+
+    <div class="board" id="board"></div>
+
+    <div class="history">
+        <h2>Historique des victoires</h2>
+        <div id="history"></div>
+    </div>
+
+</div>
+
+<script>
+
+let secret = generateSecret();
+let attempts = 0;
+let gameWon = false;
+let startTime = Date.now();
+
+const board = document.getElementById("board");
+
+loadHistory();
+
+setInterval(() => {
+
+    if(gameWon) return;
+
+    document.getElementById("timer").textContent =
+        Math.floor((Date.now()-startTime)/1000);
+
+},1000);
+
+createRow();
+
+function generateSecret(){
+
+    let digits=[];
+
+    while(digits.length<5){
+
+        let d=Math.floor(Math.random()*10).toString();
+
+        if(!digits.includes(d)){
+            digits.push(d);
+        }
+    }
+
+    return digits.join('');
+}
+
+function createRow(){
+
+    if(gameWon) return;
+
+    const row=document.createElement("div");
+    row.className="row";
+
+    const inputs=document.createElement("div");
+    inputs.className="inputs";
+
+    const cells=[];
+
+    for(let i=0;i<5;i++){
+
+        const input=document.createElement("input");
+
+        input.className="cell";
+        input.maxLength=1;
+        input.inputMode="numeric";
+
+        input.addEventListener("input",()=>{
+
+            input.value=input.value.replace(/[^0-9]/g,'');
+
+            if(input.value && i<4){
+                cells[i+1].focus();
+            }
+
+            calculateLive(cells,row);
+        });
+
+        input.addEventListener("keydown",(e)=>{
+
+            if(e.key==="Backspace" && !input.value && i>0){
+                cells[i-1].focus();
+            }
+        });
+
+        cells.push(input);
+        inputs.appendChild(input);
+    }
+
+    const score=document.createElement("div");
+    score.className="score";
+
+    score.innerHTML=`
+        <span class="badge">✔ 0</span>
+        <span class="badge">↻ 0</span>
+    `;
+
+    const next=document.createElement("button");
+    next.className="next";
+    next.innerHTML="➜";
+    next.disabled=true;
+
+    next.addEventListener("click",()=>{
+
+        cells.forEach(x=>x.disabled=true);
+
+        next.disabled=true;
+
+        attempts++;
+
+        document.getElementById("attempts").textContent=attempts;
+
+        let well=parseInt(row.dataset.well || 0);
+
+        if(well===5){
+
+            gameWon=true;
+
+            next.innerHTML="🏆";
+            next.classList.add("win");
+
+            saveScore();
+
+            alert("Bravo ! Nombre trouvé.");
+
+            return;
+        }
+
+        createRow();
+    });
+
+    row.appendChild(inputs);
+    row.appendChild(score);
+    row.appendChild(next);
+
+    board.appendChild(row);
+
+    setTimeout(()=>cells[0].focus(),100);
+}
+
+function calculateLive(cells,row){
+
+    const guess=cells.map(x=>x.value).join('');
+
+    if(guess.length!==5){
+
+        row.querySelector(".next").disabled=true;
+        return;
+    }
+
+    let well=0;
+    let misplaced=0;
+
+    const usedSecret=Array(5).fill(false);
+    const usedGuess=Array(5).fill(false);
+
+    for(let i=0;i<5;i++){
+
+        if(guess[i]===secret[i]){
+
+            well++;
+
+            usedSecret[i]=true;
+            usedGuess[i]=true;
+        }
+    }
+
+    for(let i=0;i<5;i++){
+
+        if(usedGuess[i]) continue;
+
+        for(let j=0;j<5;j++){
+
+            if(!usedSecret[j] && guess[i]===secret[j]){
+
+                misplaced++;
+
+                usedSecret[j]=true;
+                break;
+            }
+        }
+    }
+
+    row.dataset.well=well;
+
+    row.querySelector(".score").innerHTML=`
+        <span class="badge">✔ ${well}</span>
+        <span class="badge">↻ ${misplaced}</span>
+    `;
+
+    row.querySelector(".next").disabled=false;
+}
+
+function saveScore(){
+
+    const score={
+        date:new Date().toLocaleString(),
+        attempts,
+        duration:Math.floor((Date.now()-startTime)/1000)
+    };
+
+    let history=
+        JSON.parse(localStorage.getItem("mastermindScores")||"[]");
+
+    history.unshift(score);
+
+    localStorage.setItem(
+        "mastermindScores",
+        JSON.stringify(history)
+    );
+
+    loadHistory();
+}
+
+function loadHistory(){
+
+    let history=
+        JSON.parse(localStorage.getItem("mastermindScores")||"[]");
+
+    const container=document.getElementById("history");
+
+    container.innerHTML="";
+
+    history.slice(0,20).forEach(item=>{
+
+        const div=document.createElement("div");
+
+        div.className="history-item";
+
+        div.innerHTML=
+            `${item.date} | ${item.attempts} essais | ${item.duration}s`;
+
+        container.appendChild(div);
+    });
+}
+
+console.log("SECRET =",secret);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,480 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: radial-gradient(circle, #0f172a, #020617);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    padding-bottom: 50px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    margin: 8px 0;
+}
+
+nav a {
+    color: #93c5fd;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+/* STATS */
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    max-width: 90vw;
+    margin: 10px 0;
+}
+
+/* BOARD */
+
+.board {
+    width: 420px;
+    max-width: 90vw;
+    height: 420px;
+    overflow-y: auto;
+
+    background: rgba(255, 255, 255, 0.04);
+    padding: 12px;
+
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ROW */
+
+.row {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);
+
+    animation: slide .2s ease;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* INPUT */
+
+.cell {
+    width: 38px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+
+    border-radius: 8px;
+    border: none;
+
+    background: #111827;
+    color: white;
+}
+
+/* BADGE */
+
+.badge {
+    background: #2563eb;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    padding: 10px;
+
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+
+    color: #94a3b8;
+}
+
+/* TEST */
+
+#question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#answers button {
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+
+    background: #111827;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#result {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 15px;
+
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* ================= HISTORY LEFT ================= */
+
+#historyPanel {
+    width: 220px;
+    height: 520px;
+
+    overflow-y: auto;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    font-size: 12px;
+    color: #cbd5e1;
+}
+
+/* history item */
+.history-item {
+    padding: 8px;
+    margin-bottom: 8px;
+
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+
+    font-size: 12px;
+}
+
+/* ================= GAME CENTER ================= */
+
+#gameView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:800px) {
+
+    #layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #historyPanel {
+        width: 90vw;
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .history-item {
+        min-width: 160px;
+        flex-shrink: 0;
+    }
+}
+
+.md {
+    white-space: pre-wrap;
+    font-family: inherit;
+
+    background: rgba(255, 255, 255, 0.03);
+    padding: 12px;
+
+    border-radius: 12px;
+
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.modal {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+
+    z-index: 99999;
+}
+
+
+
+#layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* 🔥 clé du problème */
+
+    gap: 15px;
+
+    width: 100%;
+
+    padding-top: 10px;
+}
+
+/* ================= HISTORY ================= */
+
+#historyPanel {
+    width: 220px;
+
+    height: calc(420px + 50px);
+    /* 🔥 même hauteur que stats + board */
+
+    overflow-y: auto;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    font-size: 12px;
+    color: #cbd5e1;
+}
+
+/* ================= GAME ================= */
+
+#gameView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* stats + board bloc cohérent */
+.stats {
+    width: 420px;
+    max-width: 95vw;
+}
+
+.board {
+    width: 420px;
+    max-width: 95vw;
+
+    height: 420px;
+    /* 🔥 référence de base */
+    overflow-y: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 10px 15px;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+/* ================= TITLE ================= */
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+/* ================= MENU BLOCK ================= */
+
+.topMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+/* LINKS */
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#menu a {
+    color: #93c5fd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ACTIONS */
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= CONTROLS ================= */
+
+.right {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.md{
+    color:#e5e7eb;
+    font-size:14px;
+    line-height:1.6;
+
+    padding:10px;
+}
+
+/* TITRES */
+.md h1{
+    font-size:22px;
+    margin:10px 0;
+    color:white;
+}
+
+.md h2{
+    font-size:18px;
+    margin:10px 0;
+    color:#93c5fd;
+}
+
+.md h3{
+    font-size:16px;
+    margin:8px 0;
+    color:#60a5fa;
+}
+
+/* LISTES */
+.md ul{
+    padding-left:18px;
+}
+
+.md li{
+    margin:4px 0;
+}
+
+/* BLOC EMPHASE */
+.md b{
+    color:#fbbf24;
+}
+
+/* PARAGRAPHES */
+.md p{
+    margin:6px 0;
+}
+
+.modal-content{
+    position:relative;
+
+    width:90%;
+    max-width:520px;
+    max-height:80vh;
+
+    overflow:auto;
+
+    background:#0f172a;
+    border-radius:16px;
+
+    padding:20px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,0.6);
+}
