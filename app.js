@@ -28,8 +28,8 @@ function init(){
     setupTimer();
     setupMenu();
     setupAbout();
-    setupTest();
-    renderHistory();
+    setupTest();    
+    setupScoresModal();
 }
 
 /* ================= LOGO ================= */
@@ -345,6 +345,58 @@ function renderMarkdown(md){
         // wrap lists properly
         .replace(/(<li>.*<\/li>)/gs, "<ul>$1</ul>");
 }
+function setupScoresModal(){
+
+    const modal = document.createElement("div");
+    modal.className = "modal";
+
+    modal.innerHTML = `
+        <div class="modal-content">
+            <button id="closeScores">✕</button>
+            <h2>Mes Scores</h2>
+            <div id="scoresContent"></div>
+        </div>
+    `;
+
+    document.body.appendChild(modal);
+
+    const content = modal.querySelector("#scoresContent");
+
+    document.getElementById("scoresBtn").onclick = () => {
+
+        modal.style.display = "flex";
+
+        let history = JSON.parse(localStorage.getItem("mastermind_games") || "[]");
+
+        if(history.length === 0){
+            content.innerHTML = "<p>Aucun score pour le moment.</p>";
+            return;
+        }
+
+        content.innerHTML = history.slice().reverse().map(h => {
+
+            return `
+                <div class="history-item">
+                    📅 ${new Date(h.date).toLocaleString()}<br>
+                    🎯 Essais: ${h.tries}<br>
+                    ⏱ Temps: ${h.time}s<br>
+                    🏆 ${h.result}
+                </div>
+            `;
+        }).join("");
+    };
+
+    modal.onclick = (e) => {
+        if(e.target === modal){
+            modal.style.display = "none";
+        }
+    };
+
+    modal.querySelector("#closeScores").onclick = () => {
+        modal.style.display = "none";
+    };
+}
+
 function setupTest(){
     // future: strategy-test.json (40 questions A/B/C/D + scoring + profile engine)
 }

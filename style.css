@@ -192,35 +192,6 @@ footer {
     padding-top: 10px;
 }
 
-/* ================= HISTORY LEFT ================= */
-
-#historyPanel {
-    width: 220px;
-    height: 520px;
-
-    overflow-y: auto;
-
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-
-    border-radius: 16px;
-
-    padding: 10px;
-
-    font-size: 12px;
-    color: #cbd5e1;
-}
-
-/* history item */
-.history-item {
-    padding: 8px;
-    margin-bottom: 8px;
-
-    background: rgba(255, 255, 255, 0.03);
-    border-radius: 10px;
-
-    font-size: 12px;
-}
 
 /* ================= GAME CENTER ================= */
 
@@ -477,4 +448,25 @@ header {
     padding:20px;
 
     box-shadow:0 20px 60px rgba(0,0,0,0.6);
+}
+
+.actions{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+}
+
+.actions button{
+    background:#1f2937;
+    color:white;
+
+    border:none;
+    border-radius:10px;
+
+    padding:6px 10px;
+    cursor:pointer;
+}
+
+.actions button:hover{
+    background:#374151;
 }
