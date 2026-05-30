@@ -214,3 +214,15 @@ main {
 .nav-btn:hover {
     background: #374151;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 8px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 8px;
+    }
+}

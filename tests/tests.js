@@ -252,7 +252,7 @@ resultsModal.addEventListener("click", (e) => {
 });
 
 document.getElementById("goMasterMind").addEventListener("click", () => {
-  window.location.href = "/";
+  window.location.href = "./";
 });
 
 function loadResults() {
