@@ -37,12 +37,14 @@ button:hover {
 
 /* MAIN */
 main {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 12px;
+    width: min(900px, 100%) ;  
+    margin: 0 auto;
+    padding: 16px;
     box-sizing: border-box;
 }
+
+
+
 
 /* SELECTOR */
 #selector {
@@ -223,10 +225,15 @@ main {
 
 
 
-
 @media (max-width: 768px) {
 
-     body {
+    body {
+        padding: 8px;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0;
         padding: 8px;
     }
 
@@ -234,11 +241,7 @@ main {
         width: 100%;
         max-width: 100%;
         padding: 8px;
-    }
-
-    main {
-        padding: 8px;
-    }
+   }   
 
     .card {
         padding: 10px;
@@ -249,4 +252,3 @@ main {
         padding: 8px;
     }
 }
-
